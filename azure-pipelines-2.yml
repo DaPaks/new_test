@@ -13,4 +13,4 @@
    inputs:
      repository: new_test
      command: build
-     Dockerfile: Dockerfile
+     dockerfile: '**/Dockerfile'
