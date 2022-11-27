@@ -13,4 +13,4 @@
    inputs:
      repository: new_test
      command: build
-     dockerfile: '**/Dockerfile'
+     dockerfile: $(Build.SourcesDirectory)/Dockerfile
